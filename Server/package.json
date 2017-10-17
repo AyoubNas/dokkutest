@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Prello Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "nodemon index.js"
+  },
+  "author": "bastien ricoeur",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "array.prototype.move": "0.0.4",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.0",
+    "mongoose-unique-validator": "^1.0.6",
+    "swagger-jsdoc": "^1.9.7"
+  }
+}
